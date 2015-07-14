@@ -22,3 +22,24 @@ for (var t = 0; t < 10; t++) {
 }
 console.log(forest);
 console.log("=====");
+
+
+var size = 3;
+var count = 0;
+
+for (var i = 0; i < size; i++) {
+  count++;
+}
+for (var j = 0; j < size; j++) {
+  count++;
+}
+console.log('Count one: ', count);
+
+count = 0;
+for (var k = 0; k < 4; k++) {
+  for (var l = 0; l < 3; l++) {
+    count++;
+  }
+}
+
+console.log('Count two: ', count);
